@@ -1,8 +1,7 @@
 package net.yorksolutions.myfirstjavaproject;
 
 public class FizzBuzz {
-
-    public String fizzbuzz(int input) {
+    public static String fizzbuzz(int input) {
         if (input % 3 == 0 && input % 5 == 0)
             return "FizzBuzz";
 
